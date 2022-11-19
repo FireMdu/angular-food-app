@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./servers.component.css'],
 })
 export class ServersComponent implements OnInit {
-  serverName: string = '';
+  serverName: string = 'Default Server';
   allowNewServer: boolean = false;
   serverCreationStatus: string = 'No server was created';
 
